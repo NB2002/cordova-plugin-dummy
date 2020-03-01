@@ -7,10 +7,6 @@
     <license>MIT</license>
     <keywords>ios, dummy</keywords>
     
-    <engines>
-        <engine name="cordova-ios" version=">=5.0.0" />
-    </engines>
-    
     <js-module name="Dummy" src="www/Dummy.js">
         <clobbers target="Dummy" />
     </js-module>
