@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="com-dummy-plugin" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0">
+    
+    <name>Dummy</name>
+    <description>Cordova iOS dummy plugin</description>
+    <author>Noah Bussinger</author>
+    <license>MIT</license>
+    <keywords>ios, dummy</keywords>
+    
+    <engines>
+        <engine name="cordova-ios" version=">=5.0.0" />
+    </engines>
+    
+    <js-module name="Dummy" src="www/Dummy.js">
+        <clobbers target="Dummy" />
+    </js-module>
+    
+    <platform name="ios">
+        
+      <config-file target="config.xml" parent="/*">
+        <feature name="Dummy">
+          <param name="ios-package" value="Dummy" />
+        </feature>
+      </config-file>
+      
+      <header-file src="src/CDV.h" />
+      <source-file src="src/Dummy.swift" />
+      
+    </platform>
+    
+</plugin>
