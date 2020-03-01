@@ -1,7 +1,7 @@
 # Cordova-Plugin-Dummy
 Cordova iOS Plugin Dummy Template
 
-This project is an experimental Cordova plugin for the platform iOS.
+This project is an experimental Cordova plugin for the iOS.
 
 ## Test Method
 
