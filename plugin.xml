@@ -19,7 +19,6 @@
         <feature name="Dummy">
           <param name="ios-package" value="Dummy" />
         </feature>
-        <preference name="UseSwiftLanguageVersion" value="3.0" />
       </config-file>
       
       <header-file src="src/CDV.h" />
