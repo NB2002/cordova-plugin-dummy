@@ -13,18 +13,18 @@
     
     <platform name="ios">
         
+      <dependency id="cordova-plugin-add-swift-support" version="2.0.2"/>
+        
       <config-file target="config.xml" parent="/*">
         <feature name="Dummy">
           <param name="ios-package" value="Dummy" />
         </feature>
+        <preference name="UseSwiftLanguageVersion" value="3.0" />
       </config-file>
       
       <header-file src="src/CDV.h" />
       <source-file src="src/Dummy.swift" />
-      
-      <dependency id="cordova-plugin-add-swift-support" version="2.0.2"/>
-      <preference name="UseSwiftLanguageVersion" value="3.0" />
-        
+       
     </platform>
     
 </plugin>
