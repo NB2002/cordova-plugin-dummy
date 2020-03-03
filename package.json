@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NB2002/cordova-plugin-test-dummy.git"
+    "url": "git+https://github.com/NB2002/cordova-plugin-dummy.git"
   },
   "keywords": [
     "ios",
@@ -21,7 +21,7 @@
   "author": "Noah Bussinger",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/NB2002/cordova-plugin-test-dummy/issues"
+    "url": "https://github.com/NB2002/cordova-plugin-dummy/issues"
   },
-  "homepage": "https://github.com/NB2002/cordova-plugin-test-dummy#readme"
+  "homepage": "https://github.com/NB2002/cordova-plugin-dummy#readme"
 }
