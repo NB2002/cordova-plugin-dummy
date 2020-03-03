@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
-<plugin id="cordova-plugin-dummy" version="1.0" xmlns="http://apache.org/cordova/ns/plugins/1.0">
+<plugin id="cordova-plugin-test-dummy" version="1.0" xmlns="http://apache.org/cordova/ns/plugins/1.0">
     
-    <name>Dummy</name>
+    <name>Cordova Plugin Test Dummy</name>
     <description>Cordova iOS dummy plugin</description>
     <author>Noah Bussinger</author>
     <license>MIT</license>
