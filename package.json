@@ -1,16 +1,16 @@
 {
-  "name": "cordova-plugin-dummy",
+  "name": "cordova-plugin-test-dummy",
   "version": "1.0.0",
   "description": "Cordova iOS dummy plugin",
   "cordova": {
-    "id": "cordova-plugin-dummy",
+    "id": "cordova-plugin-test-dummy",
     "platforms": [
       "ios"
     ]
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NB2002/cordova-plugin-dummy.git"
+    "url": "git+https://github.com/NB2002/cordova-plugin-test-dummy.git"
   },
   "keywords": [
     "ios",
@@ -21,7 +21,7 @@
   "author": "Noah Bussinger",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/NB2002/cordova-plugin-dummy/issues"
+    "url": "https://github.com/NB2002/cordova-plugin-test-dummy/issues"
   },
-  "homepage": "https://github.com/NB2002/cordova-plugin-dummy#readme"
+  "homepage": "https://github.com/NB2002/cordova-plugin-test-dummy#readme"
 }
